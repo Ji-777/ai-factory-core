@@ -1,7 +1,0 @@
-{
-  "twitter": [{"name": "default", "token": "YOUR_TWITTER_TOKEN", "template": "{content}"}],
-  "linkedin": [{"name": "default", "token": "YOUR_LINKEDIN_TOKEN", "template": "{content}"}],
-  "medium": [{"name": "default", "token": "YOUR_MEDIUM_TOKEN", "template": "{content}"}],
-  "telegram": [{"name": "default", "token": "YOUR_TELEGRAM_TOKEN", "chat_id": "YOUR_CHAT_ID", "template": "{content}"}],
-  "reddit": [{"name": "default", "client_id": "YOUR_REDDIT_CLIENT_ID", "client_secret": "YOUR_REDDIT_CLIENT_SECRET", "subreddit": "YOUR_SUBREDDIT", "template": "{content}"}]
-}
