@@ -1,0 +1,4 @@
+requests
+schedule
+markdown
+beautifulsoup4
