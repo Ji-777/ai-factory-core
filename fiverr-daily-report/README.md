@@ -1,48 +1,116 @@
-# Fiverr Daily Report Generator
+# Fiverr Report Bot
 
-This Python script automates the generation of daily summary reports from Fiverr order data exported as CSV files.
+Fiverr Report Bot is a Python automation tool that fetches your daily Fiverr sales data and emails it to you in a clean report format.
+
+📬 Author: Lenox  
+📧 Email: jx595127@gmail.com
+🌐 **Language**: English first, 中文 follows
+
+---
 
 ## Features
 
-- Parses Fiverr order CSVs
-- Summarizes daily order count and revenue
-- Groups orders by service type
-- Outputs in Markdown or plain text
-- Supports customization via command-line arguments
+- Retrieves earnings and order summary from Fiverr
+- Sends email summary report via SMTP
+- Supports scheduled daily execution
+- Configurable credentials and recipients
+- Lightweight and easy to deploy
+
+## Installation
+
+1. Clone this repository  
+2. Install Python 3.8 or above  
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
+Edit `config.json` with your Fiverr cookie and email details. Then run:
+
 ```bash
-python fiverr_report.py orders.csv --output daily_report.md --format markdown
+python main.py
 ```
 
-### Command-line options
+To automate daily reports, use Windows Task Scheduler or a cron job.
 
-- `--output`: Output file name (default: `daily_report.md`)
-- `--format`: Output format: `markdown` or `text`
-- `--no-type-summary`: Disable service type breakdown
-- `--date-col`, `--client-col`, `--amount-col`, `--service-col`: Customize column names
+### Configuration
 
-## Example
+`config.json` format:
 
-Sample input:
+```json
+{
+  "fiverr_cookie": "your_cookie_here",
+  "email": {
+    "from": "your_email@gmail.com",
+    "to": "recipient_email@gmail.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "your_email@gmail.com",
+    "password": "your_email_password"
+  }
+}
 ```
-date,client name,amount,service type
-2025-06-27,John Doe,$75,SEO Writing
-2025-06-27,Jane Smith,$120,Logo Design
+
+---
+
+# Fiverr 日报助手
+
+Fiverr Report Bot 是一个 Python 自动化工具，用于抓取你的 Fiverr 每日销售数据并以简洁的邮件形式发送给你。
+📬 **作者**: Lenox  
+📧 **邮箱**: jx595127@gmail.com  
+🌐 **语言**: 英文优先，中文补充
+
+---
+
+## 功能亮点
+
+- 获取 Fiverr 收入与订单概览
+- 通过 SMTP 邮件发送日报
+- 支持定时每日自动运行
+- 可配置邮箱账号与收件人
+- 部署简单，运行轻量
+
+## 安装方法
+
+1. 克隆本项目  
+2. 安装 Python 3.8 或以上版本  
+3. 安装依赖：
+
+```bash
+pip install -r requirements.txt
 ```
 
-Generated output:
-```markdown
-## Fiverr Daily Report - 2025-06-27
+## 使用方式
 
-**Total Orders**: 2  
-**Total Revenue**: $195.00  
-**Orders by Type**:
-- SEO Writing: 1
-- Logo Design: 1
+编辑 `config.json`，填入 Fiverr Cookie 和邮箱信息。运行：
+
+```bash
+python main.py
+```
+
+如需每天自动运行，请使用 Windows 任务计划或 Linux cron。
+
+### 配置说明
+
+`config.json` 示例格式：
+
+```json
+{
+  "fiverr_cookie": "your_cookie_here",
+  "email": {
+    "from": "your_email@gmail.com",
+    "to": "recipient_email@gmail.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "your_email@gmail.com",
+    "password": "your_email_password"
+  }
+}
 ```
 
 ## License
 
-MIT License
+MIT License. See [LICENSE](LICENSE) for more details.
