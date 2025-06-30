@@ -1,3 +1,9 @@
+![AI Factory Banner](./docs/public/banner.png)
+
+# 🏭 AI Factory Core
+
+> A curated collection of lightweight, AI-powered automation tools built by [Lenox](mailto:jx595127@gmail.com), designed for freelancers and solopreneurs.
+
 # 🏗️ ai-factory-core
 
 **The unified warehouse for modular AI-powered automation tools.**
