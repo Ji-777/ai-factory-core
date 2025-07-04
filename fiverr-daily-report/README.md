@@ -1,15 +1,42 @@
-Fiverr Daily Insight Bot
-🚀 One-Sentence Tagline: Win more gigs with daily Fiverr trends – fully automated.
+# Fiverr Daily Insight Bot
 
-📄 Short Description:
-Struggling to find high-demand gigs on Fiverr? This tool delivers the hottest job trends and exploding keyword opportunities to your inbox every day – right when you need them.
+> Discover Fiverr trends before others do — automatically.
 
-🎯 Key Benefits:
+## 🧠 Introduction
 
-🔍 Auto-scouts top-performing gigs and keywords daily
+Finding profitable gigs on Fiverr can be time-consuming and frustrating. Freelancers often spend hours manually researching services that are in demand, only to miss trending opportunities.  
+**Fiverr Daily Insight Bot** solves this by delivering high-potential keywords and rising gig trends straight to your inbox — every day.
 
-⏱️ Saves hours of manual research for freelancers
+## 🚀 Key Features
 
-🎯 Boosts your chances of getting more orders with trend-driven targeting
+- 🔍 Automatically scrapes and analyzes trending Fiverr gig keywords
+- 🧠 Detects emerging service niches with high buyer demand
+- 📬 Sends daily reports with actionable keyword suggestions
+- ⏱️ Zero manual input required — works on autopilot
 
-🧠 Learns and adapts to niche patterns for better recommendations
+## 💡 Use Cases
+
+- 🎯 Freelancers looking to optimize gig offerings based on market demand  
+- 🧑‍💻 Side hustlers identifying profitable entry points into Fiverr  
+- 📈 Agencies or VA teams managing multiple freelancer profiles  
+
+## ⚙️ Getting Started
+
+1. Clone the repository  
+2. Configure your schedule and delivery method (email or dashboard)  
+3. Deploy with a single command
+
+👉 [Full Setup Guide](docs/setup.md)
+
+## 🔭 Future Plans
+
+- Web-based dashboard with trend visualization  
+- Smart alerts for niche-specific trend spikes  
+- Integration with Fiverr gig publishing
+
+## 💬 Feedback & Contact
+
+Found a bug or want to suggest a feature?  
+Submit an issue or reach out at **jx595127@gmail.com**  
+
+---
