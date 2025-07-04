@@ -1,15 +1,42 @@
-Shopify Inventory Syncer
-🚀 One-Sentence Tagline: Keep your stock in sync – everywhere, automatically.
+# Shopify Inventory Syncer
 
-📄 Short Description:
-Manage multiple stores with ease. This tool auto-syncs your Shopify inventory with platforms like eBay, Amazon, and Etsy – no more overselling, no more chaos.
+> Real-time stock syncing across platforms — without lifting a finger.
 
-🎯 Key Benefits:
+## 🧠 Introduction
 
-🔄 Real-time inventory sync across all major marketplaces
+Managing inventory across multiple platforms like Shopify, Etsy, and Amazon is painful — overselling, stock mismatches, and lost orders are common.  
+**Shopify Inventory Syncer** automates the entire process, syncing your inventory in real-time to ensure your stores are always up-to-date and in sync.
 
-🧘‍♂️ Prevents stock mismatches, overselling, and customer complaints
+## 🚀 Key Features
 
-📦 Scales with your multi-store business as you grow
+- 🔄 Sync inventory across Shopify, eBay, Amazon, Etsy, and more  
+- 🧘 Prevent overselling and stockout issues  
+- 📊 Monitor sync logs and alerts for low stock  
+- 🧩 Easy configuration with no technical setup required  
 
-💻 No technical setup – plug, sync, and go
+## 💡 Use Cases
+
+- 🛍️ E-commerce sellers running multiple storefronts  
+- 🧑‍🔧 Shopify agencies managing client stores  
+- 🛠️ Sellers who frequently restock and need real-time updates
+
+## ⚙️ Getting Started
+
+1. Clone this repo  
+2. Connect your store APIs using config.json  
+3. Run the sync script or deploy as a scheduled job
+
+👉 [Installation Guide](docs/install.md)
+
+## 🔭 Future Plans
+
+- UI dashboard for store management  
+- Support for WooCommerce, Walmart, and more  
+- Bulk product editing and inventory forecast module  
+
+## 💬 Feedback & Contact
+
+Have feedback or feature requests?  
+Open an issue or contact me via **jx595127@gmail.com**  
+
+---
